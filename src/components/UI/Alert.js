@@ -50,6 +50,6 @@ const Alert = ({ alert }) => {
   );
 };
 const mapStateToProps = (state) => ({
-  alert: state.posts.alert,
+  alert: state.alert.alert,
 });
 export default connect(mapStateToProps, null)(Alert);

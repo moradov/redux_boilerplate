@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { addPost, setAlert } from '../actions/postsAction';
+import { addPost } from '../actions/postsAction';
+import { setAlert } from '../actions/alertActions';
 import { withRouter } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap';
 
